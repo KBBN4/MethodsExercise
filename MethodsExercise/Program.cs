@@ -7,6 +7,13 @@ namespace MethodsExercise
     {
         static void Main(string[] args)
         {
+
+            Methods.Add(2, 4);
+            Methods.Subtract(4, 2);
+            Methods.Multiply(5, 2);
+            Methods.divide(10, 2);
+
+
             Console.WriteLine("What is your name?");
             string name = Console.ReadLine();
             Console.WriteLine("What is your favorite color ?");
@@ -21,5 +28,9 @@ namespace MethodsExercise
                 $"i was so shocked by the answers so,of course i then asked , tell me your favorite band and she replied with {Band}." +
                 $"Oh, no, no no. Unbelievable.");
         }
-    }
-}
+         
+       
+            
+        
+         }
+     }
